@@ -1,0 +1,575 @@
+Script started on 2025-06-04 09:09:26+00:00 [TERM="xterm-256color" TTY="/dev/pts/4" COLUMNS="120" LINES="30"]
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# l
+[?2004lbash: l: command not found
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# ls
+[?2004lfile1  [0m[01;32mscript[0m  typescript
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# cat[K[K[Kcd [K[K[Klsl
+[?2004lbash: lsl: command not found
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# l[K[H[2J[root@ip-172-31-4-161 newgit]# ls -l
+[?2004ltotal 8
+-rw-r--r--. 1 root root  40 Jun  2 23:17 file1
+-rwxrwxrwx. 1 root root 136 Jun  4 09:06 [0m[01;32mscript[0m
+-rw-r--r--. 1 root root   0 Jun  4 09:09 typescript
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# cat file1 
+[?2004l#!bin/bash
+yum update
+ifconfig httpd on
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# cat file1 [K[K[K[K[K[Ktypescript 
+[?2004l]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# cd ..
+[?2004l]0;root@ip-172-31-4-161:/home/ec2-user[?2004h[root@ip-172-31-4-161 ec2-user]# ls
+[?2004lbackup    [0m[01;34mdir1[0m    file1  file4   file5   file9   [01;34mfolder[0m  [01;34mnewgit[0m  [01;36msoft4[0m
+backup77  [01;32mfile09[0m  file2  [01;32mfile44[0m  file77  fileno  int4    [01;34mprod[0m    [01;36msoft77[0m
+]0;root@ip-172-31-4-161:/home/ec2-user[?2004h[root@ip-172-31-4-161 ec2-user]# cd ..
+[?2004l]0;root@ip-172-31-4-161:/home[?2004h[root@ip-172-31-4-161 home]# ls
+[?2004l[0m[01;34mec2-user[0m  [01;34muser1[0m  [01;34muser2[0m
+]0;root@ip-172-31-4-161:/home[?2004h[root@ip-172-31-4-161 home]# cd ..
+[?2004l]0;root@ip-172-31-4-161:/[?2004h[root@ip-172-31-4-161 /]# ls
+[?2004l[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;36mlib[0m  [01;36mlib64[0m  [01;34mlocal[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+]0;root@ip-172-31-4-161:/[?2004h[root@ip-172-31-4-161 /]# cd bin/
+[?2004l]0;root@ip-172-31-4-161:/bin[?2004h[root@ip-172-31-4-161 bin]# ls
+[?2004l[0m[01;32m'['[0m                      [01;32mgit[0m                     [01;32mnroff[0m                 [01;32mssh-keygen[0m
+ [01;32mab[0m                      [01;36mgit-receive-pack[0m        [01;32mnsec3hash[0m             [01;32mssh-keyscan[0m
+ [01;32mac[0m                      [01;32mgit-shell[0m               [01;32mnsenter[0m               [01;32mssm-agent-worker[0m
+ [01;32macpi_listen[0m             [01;36mgit-upload-archive[0m      [01;32mnslookup[0m              [01;32mssm-cli[0m
+ [01;32maddr2line[0m               [01;36mgit-upload-pack[0m         [01;32mnsupdate[0m              [01;32mssm-document-worker[0m
+ [01;32malias[0m                   [01;32mglib-compile-schemas[0m    [01;32mnumfmt[0m                [01;32mssm-session-logger[0m
+ [01;32mamazon-ssm-agent[0m        [01;36mgneqn[0m                   [01;32mobjcopy[0m               [01;32mssm-session-worker[0m
+ [01;36mapropos[0m                 [01;36mgnroff[0m                  [01;32mobjdump[0m               [01;32msss_ssh_authorizedkeys[0m
+ [01;36mapropos.man-db[0m          [37;41mgpasswd[0m                 [01;32mod[0m                    [01;32msss_ssh_knownhostsproxy[0m
+ [01;32mar[0m                      [01;32mgpg[0m                     [01;32moomctl[0m                [01;32mstap-merge[0m
+ [01;32march[0m                    [01;32mgpg-error[0m               [01;32mopenssl[0m               [01;32mstap-report[0m
+ [01;32marpaname[0m                [01;36mgpg2[0m                    [01;32mopenvt[0m                [01;32mstapbpf[0m
+ [30;41marping[0m                  [01;32mgpgme-json[0m              [01;32mos-prober[0m             [01;32mstapdyn[0m
+ [01;32mas[0m                      [40;31;01mgpgv2[0m                   [01;32mp11-kit[0m               [37;41mstaprun[0m
+ [01;32maserver[0m                 [01;36mgpic[0m                    [01;36mpackage-cleanup[0m       [01;32mstapsh[0m
+ [37;41mat[0m                      [01;32mgprof[0m                   [37;41mpasswd[0m                [01;32mstat[0m
+ [01;36matq[0m                     [01;32mgr2fonttest[0m             [01;32mpaste[0m                 [01;32mstdbuf[0m
+ [01;36matrm[0m                    [01;32mgrep[0m                    [01;32mpathchk[0m               [01;32mstrace[0m
+ [01;32mattr[0m                    [01;32mgroff[0m                   [01;32mpeekfd[0m                [01;32mstrace-log-merge[0m
+ [01;32maudit2allow[0m             [01;32mgrops[0m                   [01;32mperl[0m                  [01;32mstrings[0m
+ [01;36maudit2why[0m               [01;32mgrotty[0m                  [01;32mperl5.32.1[0m            [01;32mstrip[0m
+ [01;32maulast[0m                  [01;32mgroups[0m                  [01;32mperldoc[0m               [01;32mstty[0m
+ [01;32maulastlog[0m               [01;32mgrowpart[0m                [01;32mpgrep[0m                 [37;41msu[0m
+ [01;32mausyscall[0m               [01;32mgrub2-amazon-setup[0m      [01;32mpic[0m                   [37;41msudo[0m
+ [01;32mauvirt[0m                  [01;32mgrub2-editenv[0m           [01;32mpiconv[0m                [01;36msudoedit[0m
+ [01;36mawk[0m                     [01;32mgrub2-file[0m              [01;32mpidof[0m                 [01;32msudoreplay[0m
+ [01;32maws[0m                     [01;32mgrub2-menulst2cfg[0m       [01;32mpidstat[0m               [01;32msum[0m
+ [01;32maws_completer[0m           [01;32mgrub2-mkimage[0m           [01;32mpidwait[0m               [01;32msync[0m
+ [01;32mb2sum[0m                   [01;32mgrub2-mkpasswd-pbkdf2[0m   [01;32mping[0m                  [01;32msystemctl[0m
+ [01;32mbase32[0m                  [01;32mgrub2-mkrelpath[0m         [01;32mpinky[0m                 [01;32msystemd-analyze[0m
+ [01;32mbase64[0m                  [01;32mgrub2-mount[0m             [01;32mpkg-config[0m            [01;32msystemd-ask-password[0m
+ [01;32mbasename[0m                [01;32mgrub2-script-check[0m      [01;32mpkgconf[0m               [01;32msystemd-cat[0m
+ [01;32mbasenc[0m                  [01;32mgsettings[0m               [01;32mpkill[0m                 [01;32msystemd-cgls[0m
+ [01;32mbash[0m                    [01;36mgsoelim[0m                 [01;32mpldd[0m                  [01;32msystemd-cgtop[0m
+ [01;36mbashbug[0m                 [01;36mgtar[0m                    [01;32mpmap[0m                  [01;32msystemd-creds[0m
+ [01;32mbashbug-64[0m              [01;36mgtbl[0m                    [01;32mpod2man[0m               [01;32msystemd-cryptenroll[0m
+ [01;32mbatch[0m                   [01;36mgtroff[0m                  [01;32mpod2text[0m              [01;32msystemd-delta[0m
+ [01;32mbc[0m                      [01;32mgunzip[0m                  [01;32mpod2usage[0m             [01;32msystemd-detect-virt[0m
+ [01;32mbg[0m                      [01;32mgzexe[0m                   [01;32mportablectl[0m           [01;32msystemd-dissect[0m
+ [01;32mbootctl[0m                 [01;32mgzip[0m                    [01;32mpost-grohtml[0m          [01;32msystemd-escape[0m
+ [01;36mbunzip2[0m                 [01;32mhardlink[0m                [01;32mpowernow-k8-decode[0m    [01;32msystemd-firstboot[0m
+ [01;32mbusctl[0m                  [01;32mhash[0m                    [01;32mpr[0m                    [01;32msystemd-hwdb[0m
+ [01;36mbzcat[0m                   [01;32mhead[0m                    [01;32mpre-grohtml[0m           [01;32msystemd-id128[0m
+ [01;36mbzcmp[0m                   [01;32mhexdump[0m                 [01;32mpreconv[0m               [01;32msystemd-inhibit[0m
+ [01;32mbzdiff[0m                  [01;32mhibinit-agent[0m           [01;32mprintenv[0m              [01;32msystemd-machine-id-setup[0m
+ [01;36mbzegrep[0m                 [01;32mhomectl[0m                 [01;32mprintf[0m                [01;32msystemd-mount[0m
+ [01;36mbzfgrep[0m                 [01;32mhost[0m                    [01;32mprlimit[0m               [01;32msystemd-notify[0m
+ [01;32mbzgrep[0m                  [01;32mhostid[0m                  [01;32mprtstat[0m               [01;32msystemd-path[0m
+ [01;32mbzip2[0m                   [01;32mhostname[0m                [01;32mps[0m                    [01;32msystemd-repart[0m
+ [01;32mbzip2recover[0m            [01;32mhostnamectl[0m             [01;36mpsfaddtable[0m           [01;36msystemd-resolve[0m
+ [01;36mbzless[0m                  [01;32mhtdbm[0m                   [01;36mpsfgettable[0m           [01;32msystemd-run[0m
+ [01;32mbzmore[0m                  [01;32mhtdigest[0m                [01;36mpsfstriptable[0m         [01;32msystemd-socket-activate[0m
+ [01;32mc++filt[0m                 [01;32mhtpasswd[0m                [01;32mpsfxtable[0m             [01;32msystemd-stdio-bridge[0m
+ [01;32mca-legacy[0m               [01;32mhttxt2dbm[0m               [01;32mpslog[0m                 [01;32msystemd-sysext[0m
+ [01;32mcal[0m                     [01;32mhunspell[0m                [01;32mpstree[0m                [01;32msystemd-sysusers[0m
+ [01;36mcaptoinfo[0m               [01;36mi386[0m                    [01;36mpstree.x11[0m            [01;32msystemd-tmpfiles[0m
+ [01;32mcat[0m                     [01;32miconv[0m                   [01;32mptx[0m                   [01;32msystemd-tty-ask-password-agent[0m
+ [01;32mcatchsegv[0m               [01;32mid[0m                      [01;32mpwd[0m                   [01;36msystemd-umount[0m
+ [01;32mcatman[0m                  [01;32minfo[0m                    [01;32mpwdx[0m                  [01;32mtabs[0m
+ [01;32mcd[0m                      [01;32minfocmp[0m                 [01;32mpwmake[0m                [01;32mtac[0m
+ [01;32mcentrino-decode[0m         [01;36minfotocap[0m               [01;32mpwscore[0m               [01;32mtail[0m
+ [01;36mcfn-elect-cmd-leader[0m    [01;32minstall[0m                 [01;36mpydoc[0m                 [01;32mtapestat[0m
+ [01;36mcfn-get-metadata[0m        [01;32mionice[0m                  [01;36mpydoc3[0m                [01;32mtar[0m
+ [01;36mcfn-hup[0m                 [01;32miostat[0m                  [01;32mpydoc3.9[0m              [01;32mtaskset[0m
+ [01;36mcfn-init[0m                [01;32mipcmk[0m                   [01;36mpython3[0m               [01;32mtbl[0m
+ [01;36mcfn-send-cmd-event[0m      [01;32mipcrm[0m                   [01;32mpython3.9[0m             [01;32mtcptraceroute[0m
+ [01;36mcfn-send-cmd-result[0m     [01;32mipcs[0m                    [01;32mpzstd[0m                 [01;32mtcsh[0m
+ [01;36mcfn-signal[0m              [01;32mirqtop[0m                  [01;32mquota[0m                 [01;32mtee[0m
+ [01;32mchacl[0m                   [01;32misosize[0m                 [01;32mquotasync[0m             [01;32mtest[0m
+ [37;41mchage[0m                   [01;36mjava[0m                    [01;32mranlib[0m                [01;32mtic[0m
+ [01;32mchardetect[0m              [01;32mjemalloc.sh[0m             [01;32mread[0m                  [01;32mtime[0m
+ [01;32mchattr[0m                  [01;32mjobs[0m                    [01;32mreadelf[0m               [01;32mtimedatectl[0m
+ [01;32mchcat[0m                   [01;32mjoin[0m                    [01;32mreadlink[0m              [01;32mtimeout[0m
+ [01;32mchcon[0m                   [01;32mjournalctl[0m              [01;32mrealpath[0m              [01;32mtload[0m
+ [01;32mcheckmodule[0m             [01;32mjp.py[0m                   [01;32mrecode-sr-latin[0m       [01;32mtoe[0m
+ [01;32mcheckpolicy[0m             [01;32mjq[0m                      [01;32mred[0m                   [01;32mtop[0m
+ [01;32mchevron[0m                 [01;36mjsondiff[0m                [01;32mrename[0m                [01;32mtouch[0m
+ [01;32mchgrp[0m                   [01;36mjsondiff-3[0m              [01;32mrenew-dummy-cert[0m      [01;32mtput[0m
+ [01;32mchmem[0m                   [01;32mjsondiff-3.9[0m            [01;32mrenice[0m                [01;32mtr[0m
+ [01;32mchmod[0m                   [01;36mjsonpatch[0m               [01;36mrepo-graph[0m            [01;32mtracepath[0m
+ [01;32mchoom[0m                   [01;36mjsonpatch-3[0m             [01;36mrepoclosure[0m           [01;32mtraceroute[0m
+ [01;32mchown[0m                   [01;32mjsonpatch-3.9[0m           [01;36mrepodiff[0m              [01;36mtraceroute6[0m
+ [01;32mchronyc[0m                 [01;36mjsonpointer[0m             [01;36mrepomanage[0m            [01;32mtree[0m
+ [01;32mchrt[0m                    [01;36mjsonpointer-3[0m           [01;36mrepoquery[0m             [01;32mtroff[0m
+ [01;32mchvt[0m                    [01;32mjsonpointer-3.9[0m         [01;36mreposync[0m              [01;32mtrue[0m
+ [01;32mcifsiostat[0m              [01;32mjsonschema[0m              [01;36mrepotrack[0m             [01;32mtruncate[0m
+ [01;32mcksum[0m                   [01;32mkbd_mode[0m                [01;36mreset[0m                 [01;32mtrust[0m
+ [01;32mclear[0m                   [01;32mkbdinfo[0m                 [01;32mresizecons[0m            [01;32mtset[0m
+ [30;41mclockdiff[0m               [01;32mkbdrate[0m                 [01;32mresolvectl[0m            [01;32mtsort[0m
+ [01;32mcloud-id[0m                [01;32mkernel-install[0m          [01;32mrev[0m                   [01;32mtty[0m
+ [01;32mcloud-init[0m              [01;32mkeyctl[0m                  [01;32mrm[0m                    [01;32mturbostat[0m
+ [01;32mcloud-init-per[0m          [01;36mkeytool[0m                 [01;32mrmdir[0m                 [01;32mtype[0m
+ [01;32mcmp[0m                     [01;32mkill[0m                    [01;36mrmiregistry[0m           [01;32mtzselect[0m
+ [01;32mcol[0m                     [01;32mkillall[0m                 [01;36mrnano[0m                 [01;32muclampset[0m
+ [01;32mcolcrt[0m                  [01;32mkmod[0m                    [01;32mrngtest[0m               [01;32mudevadm[0m
+ [01;32mcolrm[0m                   [01;32mlast[0m                    [01;32mrpcbind[0m               [01;32mul[0m
+ [01;32mcolumn[0m                  [01;36mlastb[0m                   [01;32mrpcinfo[0m               [01;32mulimit[0m
+ [01;32mcomm[0m                    [01;32mlastcomm[0m                [01;32mrpm[0m                   [01;32mumask[0m
+ [01;32mcommand[0m                 [01;32mlastlog[0m                 [01;32mrpm2archive[0m           [37;41mumount[0m
+ [01;32mcoredumpctl[0m             [01;32mlchfn[0m                   [01;32mrpm2cpio[0m              [01;32munalias[0m
+ [01;32mcp[0m                      [01;32mlchsh[0m                   [01;32mrpmdb[0m                 [01;32muname[0m
+ [01;32mcpio[0m                    [01;36mld[0m                      [01;32mrpmkeys[0m               [01;36muname26[0m
+ [01;32mcpupower[0m                [01;32mld.bfd[0m                  [01;36mrpmquery[0m              [01;32munexpand[0m
+ [01;36mcsh[0m                     [01;36mld.so[0m                   [01;36mrpmverify[0m             [01;32municode_start[0m
+ [01;32mcsplit[0m                  [01;32mldd[0m                     [01;32mrst2html[0m              [01;32municode_stop[0m
+ [01;32mcurl[0m                    [01;32mless[0m                    [01;32mrst2html4[0m             [01;32muniq[0m
+ [01;32mcut[0m                     [01;32mlessecho[0m                [01;32mrst2html5[0m             [01;32munlink[0m
+ [01;32mcvtsudoers[0m              [01;32mlesskey[0m                 [01;32mrst2latex[0m             [01;32munshare[0m
+ [01;32mcyrusbdb2current[0m        [01;32mlesspipe.sh[0m             [01;32mrst2man[0m               [01;36munxz[0m
+ [01;32mdate[0m                    [01;32mlexgrog[0m                 [01;32mrst2odt[0m               [01;32munzip[0m
+ [01;32mdbus-broker[0m             [01;32mlink[0m                    [01;32mrst2odt_prepstyles[0m    [01;32munzipsfx[0m
+ [01;32mdbus-broker-launch[0m      [01;32mlinux-boot-prober[0m       [01;32mrst2pseudoxml[0m         [01;36munzstd[0m
+ [01;32mdc[0m                      [01;36mlinux32[0m                 [01;32mrst2s5[0m                [01;32mupdate-ca-trust[0m
+ [01;32mdd[0m                      [01;36mlinux64[0m                 [01;32mrst2xetex[0m             [01;32mupdate-crypto-policies[0m
+ [01;32mdeallocvt[0m               [01;32mln[0m                      [01;32mrst2xml[0m               [01;32muptime[0m
+ [01;36mdebuginfo-install[0m       [01;32mloadkeys[0m                [01;32mrstpep2html[0m           [01;32muserdbctl[0m
+ [01;32mdebuginfod-find[0m         [01;32mloadunimap[0m              [01;32mrsync[0m                 [01;32musers[0m
+ [01;32mdelv[0m                    [01;32mlocale[0m                  [01;32mrsync-ssl[0m             [01;32musleep[0m
+ [01;32mdf[0m                      [01;32mlocalectl[0m               [01;32mrun-parts[0m             [01;32mutmpdump[0m
+ [01;32mdiff[0m                    [01;32mlocaledef[0m               [01;32mruncon[0m                [01;32muuidgen[0m
+ [01;32mdiff3[0m                   [01;32mlogger[0m                  [01;36mrvi[0m                   [01;32muuidparse[0m
+ [01;32mdig[0m                     [01;32mlogin[0m                   [01;36mrview[0m                 [01;32mvdir[0m
+ [01;32mdir[0m                     [01;32mloginctl[0m                [01;36mrvim[0m                  [01;32mvi[0m
+ [01;32mdircolors[0m               [01;32mlogname[0m                 [01;32msadf[0m                  [01;32mview[0m
+ [01;32mdirname[0m                 [01;32mlogresolve[0m              [01;32msar[0m                   [01;32mvim[0m
+ [01;32mdistro[0m                  [01;32mlook[0m                    [01;32msbattach[0m              [01;36mvimdiff[0m
+ [01;32mdmesg[0m                   [01;32mls[0m                      [01;32msbkeysync[0m             [01;32mvimtutor[0m
+ [01;36mdnf[0m                     [01;32mlsattr[0m                  [01;32msbsiglist[0m             [01;32mvlock[0m
+ [01;32mdnf-3[0m                   [01;32mlsblk[0m                   [01;32msbsign[0m                [01;32mvmstat[0m
+ [01;36mdnsdomainname[0m           [01;32mlscpu[0m                   [01;32msbvarsign[0m             [01;32mw[0m
+ [01;32mdnstap-read[0m             [01;32mlsinitrd[0m                [01;32msbverify[0m              [01;32mwait[0m
+ [01;36mdomainname[0m              [01;32mlsipc[0m                   [01;32mscalar[0m                [01;32mwall[0m
+ [01;32mdracut[0m                  [01;32mlsirq[0m                   [01;32mscp[0m                   [01;32mwatch[0m
+ [01;32mdu[0m                      [01;32mlslocks[0m                 [30;43mscreen[0m                [01;32mwc[0m
+ [01;32mdumpkeys[0m                [01;32mlslogins[0m                [01;32mscript[0m                [01;32mwcurl[0m
+ [01;32mdwz[0m                     [01;32mlsmcli[0m                  [01;32mscriptlive[0m            [01;32mwdctl[0m
+ [01;32mec2-metadata[0m            [01;32mlsmd[0m                    [01;32mscriptreplay[0m          [01;32mwget[0m
+ [01;32mecho[0m                    [01;32mlsmem[0m                   [01;32msdiff[0m                 [01;36mwhatis[0m
+ [01;32med[0m                      [01;32mlsns[0m                    [01;32msecon[0m                 [01;32mwhatis.man-db[0m
+ [01;32mefisecdb[0m                [01;32mlsof[0m                    [01;32msed[0m                   [01;32mwhereis[0m
+ [01;32mefivar[0m                  [01;32mmake-dummy-cert[0m         [01;32msedismod[0m              [01;32mwhich[0m
+ [01;32megrep[0m                   [01;36mman[0m                     [01;32msedispol[0m              [01;32mwhiptail[0m
+ [01;32meject[0m                   [01;32mman-recode[0m              [01;32msemodule_expand[0m       [01;32mwho[0m
+ [01;32melfedit[0m                 [01;32mman.man-db[0m              [01;32msemodule_link[0m         [01;32mwhoami[0m
+ [01;32mencguess[0m                [01;32mmandb[0m                   [01;32msemodule_package[0m      [30;43mwrite[0m
+ [01;32menv[0m                     [01;32mmanpath[0m                 [01;32msemodule_unpackage[0m    [01;36mx86_64[0m
+ [01;32menvsubst[0m                [01;32mmapscrn[0m                 [01;32mseq[0m                   [01;32mx86_64-amazon-linux-gnu-pkg-config[0m
+ [01;32meqn[0m                     [01;32mmcookie[0m                 [01;32msestatus[0m              [01;32mx86_energy_perf_policy[0m
+ [01;36mex[0m                      [01;32mmd5sum[0m                  [01;32msetarch[0m               [01;32mxargs[0m
+ [01;32mexpand[0m                  [01;32mmesg[0m                    [01;32msetfacl[0m               [01;32mxgettext[0m
+ [01;32mexpr[0m                    [01;36mminiterm-3.9.py[0m         [01;32msetfattr[0m              [01;32mxmlcatalog[0m
+ [01;32mfactor[0m                  [01;32mminiterm-3.py[0m           [01;32msetfont[0m               [01;32mxmllint[0m
+ [01;32mfallocate[0m               [01;36mminiterm.py[0m             [01;32msetkeycodes[0m           [01;32mxmlwf[0m
+ [01;32mfalse[0m                   [01;32mmkdir[0m                   [01;32msetleds[0m               [01;32mxxd[0m
+ [01;32mfc[0m                      [01;32mmkfifo[0m                  [01;32msetmetamode[0m           [01;32mxz[0m
+ [01;32mfc-cache[0m                [01;32mmknod[0m                   [01;32msetpriv[0m               [01;36mxzcat[0m
+ [01;32mfc-cache-64[0m             [01;32mmktemp[0m                  [01;32msetsid[0m                [01;36mxzcmp[0m
+ [01;32mfc-cat[0m                  [01;32mmmdblookup[0m              [01;32msetterm[0m               [01;32mxzdec[0m
+ [01;32mfc-conflist[0m             [01;32mmodulemd-validator[0m      [01;36msetup-nsssysinit[0m      [01;32mxzdiff[0m
+ [01;32mfc-list[0m                 [01;32mmore[0m                    [01;32msetup-nsssysinit.sh[0m   [01;36mxzegrep[0m
+ [01;32mfc-match[0m                [37;41mmount[0m                   [01;32msetup-policy-routes[0m   [01;36mxzfgrep[0m
+ [01;32mfc-pattern[0m              [01;32mmountpoint[0m              [01;32msetvtrgb[0m              [01;32mxzgrep[0m
+ [01;32mfc-query[0m                [01;32mmpstat[0m                  [01;32msftp[0m                  [01;32mxzless[0m
+ [01;32mfc-scan[0m                 [01;32mmsgattrib[0m               [01;36msg[0m                    [01;32mxzmore[0m
+ [01;32mfc-validate[0m             [01;32mmsgcat[0m                  [01;36msh[0m                    [01;32myes[0m
+ [01;32mfg[0m                      [01;32mmsgcmp[0m                  [01;32msha1hmac[0m              [01;36mypdomainname[0m
+ [01;32mfgconsole[0m               [01;32mmsgcomm[0m                 [01;32msha1sum[0m               [01;36myum[0m
+ [01;32mfgrep[0m                   [01;32mmsgconv[0m                 [01;32msha224hmac[0m            [01;36myum-builddep[0m
+ [01;32mfile[0m                    [01;32mmsgen[0m                   [01;32msha224sum[0m             [01;36myum-config-manager[0m
+ [01;32mfincore[0m                 [01;32mmsgexec[0m                 [01;32msha256hmac[0m            [01;36myum-debug-dump[0m
+ [01;32mfind[0m                    [01;32mmsgfilter[0m               [01;32msha256sum[0m             [01;36myum-debug-restore[0m
+ [01;36mfind-repos-of-install[0m   [01;32mmsgfmt[0m                  [01;32msha384hmac[0m            [01;36myum-groups-manager[0m
+ [01;32mfindmnt[0m                 [01;32mmsggrep[0m                 [01;32msha384sum[0m             [01;36myumdownloader[0m
+ [01;32mfips-finish-install[0m     [01;32mmsginit[0m                 [01;32msha512hmac[0m            [01;32mzcat[0m
+ [01;32mfips-mode-setup[0m         [01;32mmsgmerge[0m                [01;32msha512sum[0m             [01;32mzcmp[0m
+ [01;32mflock[0m                   [01;32mmsgunfmt[0m                [01;32mshowconsolefont[0m       [01;32mzdiff[0m
+ [01;32mfmt[0m                     [01;32mmsguniq[0m                 [01;32mshowkey[0m               [01;32mzdump[0m
+ [01;32mfold[0m                    [01;32mmv[0m                      [01;32mshred[0m                 [01;32mzegrep[0m
+ [01;32mfree[0m                    [01;32mnamed-checkzone[0m         [01;32mshuf[0m                  [01;32mzfgrep[0m
+ [01;32mfunzip[0m                  [01;32mnamed-compilezone[0m       [01;32msim_lsmplugin[0m         [01;32mzforce[0m
+ [01;32mfuse2fs[0m                 [01;32mnamed-nzd2nzf[0m           [01;32msimc_lsmplugin[0m        [01;32mzgrep[0m
+ [01;32mgapplication[0m            [01;32mnamei[0m                   [01;32msize[0m                  [01;32mzip[0m
+ [01;32mgawk[0m                    [01;32mnano[0m                    [01;32mskill[0m                 [01;32mzipcloak[0m
+ [01;32mgdbus[0m                   [01;36mneeds-restarting[0m        [01;32mslabtop[0m               [01;32mzipgrep[0m
+ [01;32mgencat[0m                  [01;32mneqn[0m                    [01;32msleep[0m                 [01;32mzipinfo[0m
+ [01;36mgeqn[0m                    [01;32mnetstat[0m                 [01;32msm3hmac[0m               [01;32mzipnote[0m
+ [01;32mgetconf[0m                 [01;32mnetworkctl[0m              [01;32msnice[0m                 [01;32mzipsplit[0m
+ [01;32mgetent[0m                  [30;41mnewgidmap[0m               [01;36msoelim[0m                [01;32mzless[0m
+ [01;32mgetfacl[0m                 [37;41mnewgrp[0m                  [01;32msoelim.groff[0m          [01;32mzmore[0m
+ [01;32mgetfattr[0m                [30;41mnewuidmap[0m               [01;32msort[0m                  [01;32mznew[0m
+ [01;32mgetkeycodes[0m             [01;32mngettext[0m                [01;32msotruss[0m               [01;36mzsoelim[0m
+ [01;32mgetopt[0m                  [01;32mnice[0m                    [01;32msplit[0m                 [01;32mzstd[0m
+ [01;32mgetopts[0m                 [01;36mnisdomainname[0m           [01;32msprof[0m                 [01;36mzstdcat[0m
+ [01;32mgettext[0m                 [01;32mnl[0m                      [01;32mssh[0m                   [01;32mzstdgrep[0m
+ [01;32mgettext.sh[0m              [01;32mnm[0m                      [01;32mssh-add[0m               [01;32mzstdless[0m
+ [01;32mgio[0m                     [01;32mnohup[0m                   [01;32mssh-agent[0m             [01;36mzstdmt[0m
+ [01;32mgio-querymodules-64[0m     [01;32mnproc[0m                   [01;32mssh-copy-id[0m
+]0;root@ip-172-31-4-161:/bin[?2004h[root@ip-172-31-4-161 bin]# cat typescript
+[?2004lcat: typescript: No such file or directory
+]0;root@ip-172-31-4-161:/bin[?2004h[root@ip-172-31-4-161 bin]# cd ..
+[?2004l]0;root@ip-172-31-4-161:/[?2004h[root@ip-172-31-4-161 /]# ls
+[?2004l[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;36mlib[0m  [01;36mlib64[0m  [01;34mlocal[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+]0;root@ip-172-31-4-161:/[?2004h[root@ip-172-31-4-161 /]# cd ..
+[?2004l]0;root@ip-172-31-4-161:/[?2004h[root@ip-172-31-4-161 /]# ls
+[?2004l[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;36mlib[0m  [01;36mlib64[0m  [01;34mlocal[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+]0;root@ip-172-31-4-161:/[?2004h[root@ip-172-31-4-161 /]# cd usr/
+[?2004l]0;root@ip-172-31-4-161:/usr[?2004h[root@ip-172-31-4-161 usr]# ls
+[?2004l[0m[01;34mbin[0m  [01;34mgames[0m  [01;34minclude[0m  [01;34mlib[0m  [01;34mlib64[0m  [01;34mlibexec[0m  [01;34mlocal[0m  [01;34msbin[0m  [01;34mshare[0m  [01;34msrc[0m  [01;36mtmp[0m
+]0;root@ip-172-31-4-161:/usr[?2004h[root@ip-172-31-4-161 usr]# cd bin/
+[?2004l]0;root@ip-172-31-4-161:/usr/bin[?2004h[root@ip-172-31-4-161 bin]# ls
+[?2004l[0m[01;32m'['[0m                      [01;32mgit[0m                     [01;32mnroff[0m                 [01;32mssh-keygen[0m
+ [01;32mab[0m                      [01;36mgit-receive-pack[0m        [01;32mnsec3hash[0m             [01;32mssh-keyscan[0m
+ [01;32mac[0m                      [01;32mgit-shell[0m               [01;32mnsenter[0m               [01;32mssm-agent-worker[0m
+ [01;32macpi_listen[0m             [01;36mgit-upload-archive[0m      [01;32mnslookup[0m              [01;32mssm-cli[0m
+ [01;32maddr2line[0m               [01;36mgit-upload-pack[0m         [01;32mnsupdate[0m              [01;32mssm-document-worker[0m
+ [01;32malias[0m                   [01;32mglib-compile-schemas[0m    [01;32mnumfmt[0m                [01;32mssm-session-logger[0m
+ [01;32mamazon-ssm-agent[0m        [01;36mgneqn[0m                   [01;32mobjcopy[0m               [01;32mssm-session-worker[0m
+ [01;36mapropos[0m                 [01;36mgnroff[0m                  [01;32mobjdump[0m               [01;32msss_ssh_authorizedkeys[0m
+ [01;36mapropos.man-db[0m          [37;41mgpasswd[0m                 [01;32mod[0m                    [01;32msss_ssh_knownhostsproxy[0m
+ [01;32mar[0m                      [01;32mgpg[0m                     [01;32moomctl[0m                [01;32mstap-merge[0m
+ [01;32march[0m                    [01;32mgpg-error[0m               [01;32mopenssl[0m               [01;32mstap-report[0m
+ [01;32marpaname[0m                [01;36mgpg2[0m                    [01;32mopenvt[0m                [01;32mstapbpf[0m
+ [30;41marping[0m                  [01;32mgpgme-json[0m              [01;32mos-prober[0m             [01;32mstapdyn[0m
+ [01;32mas[0m                      [40;31;01mgpgv2[0m                   [01;32mp11-kit[0m               [37;41mstaprun[0m
+ [01;32maserver[0m                 [01;36mgpic[0m                    [01;36mpackage-cleanup[0m       [01;32mstapsh[0m
+ [37;41mat[0m                      [01;32mgprof[0m                   [37;41mpasswd[0m                [01;32mstat[0m
+ [01;36matq[0m                     [01;32mgr2fonttest[0m             [01;32mpaste[0m                 [01;32mstdbuf[0m
+ [01;36matrm[0m                    [01;32mgrep[0m                    [01;32mpathchk[0m               [01;32mstrace[0m
+ [01;32mattr[0m                    [01;32mgroff[0m                   [01;32mpeekfd[0m                [01;32mstrace-log-merge[0m
+ [01;32maudit2allow[0m             [01;32mgrops[0m                   [01;32mperl[0m                  [01;32mstrings[0m
+ [01;36maudit2why[0m               [01;32mgrotty[0m                  [01;32mperl5.32.1[0m            [01;32mstrip[0m
+ [01;32maulast[0m                  [01;32mgroups[0m                  [01;32mperldoc[0m               [01;32mstty[0m
+ [01;32maulastlog[0m               [01;32mgrowpart[0m                [01;32mpgrep[0m                 [37;41msu[0m
+ [01;32mausyscall[0m               [01;32mgrub2-amazon-setup[0m      [01;32mpic[0m                   [37;41msudo[0m
+ [01;32mauvirt[0m                  [01;32mgrub2-editenv[0m           [01;32mpiconv[0m                [01;36msudoedit[0m
+ [01;36mawk[0m                     [01;32mgrub2-file[0m              [01;32mpidof[0m                 [01;32msudoreplay[0m
+ [01;32maws[0m                     [01;32mgrub2-menulst2cfg[0m       [01;32mpidstat[0m               [01;32msum[0m
+ [01;32maws_completer[0m           [01;32mgrub2-mkimage[0m           [01;32mpidwait[0m               [01;32msync[0m
+ [01;32mb2sum[0m                   [01;32mgrub2-mkpasswd-pbkdf2[0m   [01;32mping[0m                  [01;32msystemctl[0m
+ [01;32mbase32[0m                  [01;32mgrub2-mkrelpath[0m         [01;32mpinky[0m                 [01;32msystemd-analyze[0m
+ [01;32mbase64[0m                  [01;32mgrub2-mount[0m             [01;32mpkg-config[0m            [01;32msystemd-ask-password[0m
+ [01;32mbasename[0m                [01;32mgrub2-script-check[0m      [01;32mpkgconf[0m               [01;32msystemd-cat[0m
+ [01;32mbasenc[0m                  [01;32mgsettings[0m               [01;32mpkill[0m                 [01;32msystemd-cgls[0m
+ [01;32mbash[0m                    [01;36mgsoelim[0m                 [01;32mpldd[0m                  [01;32msystemd-cgtop[0m
+ [01;36mbashbug[0m                 [01;36mgtar[0m                    [01;32mpmap[0m                  [01;32msystemd-creds[0m
+ [01;32mbashbug-64[0m              [01;36mgtbl[0m                    [01;32mpod2man[0m               [01;32msystemd-cryptenroll[0m
+ [01;32mbatch[0m                   [01;36mgtroff[0m                  [01;32mpod2text[0m              [01;32msystemd-delta[0m
+ [01;32mbc[0m                      [01;32mgunzip[0m                  [01;32mpod2usage[0m             [01;32msystemd-detect-virt[0m
+ [01;32mbg[0m                      [01;32mgzexe[0m                   [01;32mportablectl[0m           [01;32msystemd-dissect[0m
+ [01;32mbootctl[0m                 [01;32mgzip[0m                    [01;32mpost-grohtml[0m          [01;32msystemd-escape[0m
+ [01;36mbunzip2[0m                 [01;32mhardlink[0m                [01;32mpowernow-k8-decode[0m    [01;32msystemd-firstboot[0m
+ [01;32mbusctl[0m                  [01;32mhash[0m                    [01;32mpr[0m                    [01;32msystemd-hwdb[0m
+ [01;36mbzcat[0m                   [01;32mhead[0m                    [01;32mpre-grohtml[0m           [01;32msystemd-id128[0m
+ [01;36mbzcmp[0m                   [01;32mhexdump[0m                 [01;32mpreconv[0m               [01;32msystemd-inhibit[0m
+ [01;32mbzdiff[0m                  [01;32mhibinit-agent[0m           [01;32mprintenv[0m              [01;32msystemd-machine-id-setup[0m
+ [01;36mbzegrep[0m                 [01;32mhomectl[0m                 [01;32mprintf[0m                [01;32msystemd-mount[0m
+ [01;36mbzfgrep[0m                 [01;32mhost[0m                    [01;32mprlimit[0m               [01;32msystemd-notify[0m
+ [01;32mbzgrep[0m                  [01;32mhostid[0m                  [01;32mprtstat[0m               [01;32msystemd-path[0m
+ [01;32mbzip2[0m                   [01;32mhostname[0m                [01;32mps[0m                    [01;32msystemd-repart[0m
+ [01;32mbzip2recover[0m            [01;32mhostnamectl[0m             [01;36mpsfaddtable[0m           [01;36msystemd-resolve[0m
+ [01;36mbzless[0m                  [01;32mhtdbm[0m                   [01;36mpsfgettable[0m           [01;32msystemd-run[0m
+ [01;32mbzmore[0m                  [01;32mhtdigest[0m                [01;36mpsfstriptable[0m         [01;32msystemd-socket-activate[0m
+ [01;32mc++filt[0m                 [01;32mhtpasswd[0m                [01;32mpsfxtable[0m             [01;32msystemd-stdio-bridge[0m
+ [01;32mca-legacy[0m               [01;32mhttxt2dbm[0m               [01;32mpslog[0m                 [01;32msystemd-sysext[0m
+ [01;32mcal[0m                     [01;32mhunspell[0m                [01;32mpstree[0m                [01;32msystemd-sysusers[0m
+ [01;36mcaptoinfo[0m               [01;36mi386[0m                    [01;36mpstree.x11[0m            [01;32msystemd-tmpfiles[0m
+ [01;32mcat[0m                     [01;32miconv[0m                   [01;32mptx[0m                   [01;32msystemd-tty-ask-password-agent[0m
+ [01;32mcatchsegv[0m               [01;32mid[0m                      [01;32mpwd[0m                   [01;36msystemd-umount[0m
+ [01;32mcatman[0m                  [01;32minfo[0m                    [01;32mpwdx[0m                  [01;32mtabs[0m
+ [01;32mcd[0m                      [01;32minfocmp[0m                 [01;32mpwmake[0m                [01;32mtac[0m
+ [01;32mcentrino-decode[0m         [01;36minfotocap[0m               [01;32mpwscore[0m               [01;32mtail[0m
+ [01;36mcfn-elect-cmd-leader[0m    [01;32minstall[0m                 [01;36mpydoc[0m                 [01;32mtapestat[0m
+ [01;36mcfn-get-metadata[0m        [01;32mionice[0m                  [01;36mpydoc3[0m                [01;32mtar[0m
+ [01;36mcfn-hup[0m                 [01;32miostat[0m                  [01;32mpydoc3.9[0m              [01;32mtaskset[0m
+ [01;36mcfn-init[0m                [01;32mipcmk[0m                   [01;36mpython3[0m               [01;32mtbl[0m
+ [01;36mcfn-send-cmd-event[0m      [01;32mipcrm[0m                   [01;32mpython3.9[0m             [01;32mtcptraceroute[0m
+ [01;36mcfn-send-cmd-result[0m     [01;32mipcs[0m                    [01;32mpzstd[0m                 [01;32mtcsh[0m
+ [01;36mcfn-signal[0m              [01;32mirqtop[0m                  [01;32mquota[0m                 [01;32mtee[0m
+ [01;32mchacl[0m                   [01;32misosize[0m                 [01;32mquotasync[0m             [01;32mtest[0m
+ [37;41mchage[0m                   [01;36mjava[0m                    [01;32mranlib[0m                [01;32mtic[0m
+ [01;32mchardetect[0m              [01;32mjemalloc.sh[0m             [01;32mread[0m                  [01;32mtime[0m
+ [01;32mchattr[0m                  [01;32mjobs[0m                    [01;32mreadelf[0m               [01;32mtimedatectl[0m
+ [01;32mchcat[0m                   [01;32mjoin[0m                    [01;32mreadlink[0m              [01;32mtimeout[0m
+ [01;32mchcon[0m                   [01;32mjournalctl[0m              [01;32mrealpath[0m              [01;32mtload[0m
+ [01;32mcheckmodule[0m             [01;32mjp.py[0m                   [01;32mrecode-sr-latin[0m       [01;32mtoe[0m
+ [01;32mcheckpolicy[0m             [01;32mjq[0m                      [01;32mred[0m                   [01;32mtop[0m
+ [01;32mchevron[0m                 [01;36mjsondiff[0m                [01;32mrename[0m                [01;32mtouch[0m
+ [01;32mchgrp[0m                   [01;36mjsondiff-3[0m              [01;32mrenew-dummy-cert[0m      [01;32mtput[0m
+ [01;32mchmem[0m                   [01;32mjsondiff-3.9[0m            [01;32mrenice[0m                [01;32mtr[0m
+ [01;32mchmod[0m                   [01;36mjsonpatch[0m               [01;36mrepo-graph[0m            [01;32mtracepath[0m
+ [01;32mchoom[0m                   [01;36mjsonpatch-3[0m             [01;36mrepoclosure[0m           [01;32mtraceroute[0m
+ [01;32mchown[0m                   [01;32mjsonpatch-3.9[0m           [01;36mrepodiff[0m              [01;36mtraceroute6[0m
+ [01;32mchronyc[0m                 [01;36mjsonpointer[0m             [01;36mrepomanage[0m            [01;32mtree[0m
+ [01;32mchrt[0m                    [01;36mjsonpointer-3[0m           [01;36mrepoquery[0m             [01;32mtroff[0m
+ [01;32mchvt[0m                    [01;32mjsonpointer-3.9[0m         [01;36mreposync[0m              [01;32mtrue[0m
+ [01;32mcifsiostat[0m              [01;32mjsonschema[0m              [01;36mrepotrack[0m             [01;32mtruncate[0m
+ [01;32mcksum[0m                   [01;32mkbd_mode[0m                [01;36mreset[0m                 [01;32mtrust[0m
+ [01;32mclear[0m                   [01;32mkbdinfo[0m                 [01;32mresizecons[0m            [01;32mtset[0m
+ [30;41mclockdiff[0m               [01;32mkbdrate[0m                 [01;32mresolvectl[0m            [01;32mtsort[0m
+ [01;32mcloud-id[0m                [01;32mkernel-install[0m          [01;32mrev[0m                   [01;32mtty[0m
+ [01;32mcloud-init[0m              [01;32mkeyctl[0m                  [01;32mrm[0m                    [01;32mturbostat[0m
+ [01;32mcloud-init-per[0m          [01;36mkeytool[0m                 [01;32mrmdir[0m                 [01;32mtype[0m
+ [01;32mcmp[0m                     [01;32mkill[0m                    [01;36mrmiregistry[0m           [01;32mtzselect[0m
+ [01;32mcol[0m                     [01;32mkillall[0m                 [01;36mrnano[0m                 [01;32muclampset[0m
+ [01;32mcolcrt[0m                  [01;32mkmod[0m                    [01;32mrngtest[0m               [01;32mudevadm[0m
+ [01;32mcolrm[0m                   [01;32mlast[0m                    [01;32mrpcbind[0m               [01;32mul[0m
+ [01;32mcolumn[0m                  [01;36mlastb[0m                   [01;32mrpcinfo[0m               [01;32mulimit[0m
+ [01;32mcomm[0m                    [01;32mlastcomm[0m                [01;32mrpm[0m                   [01;32mumask[0m
+ [01;32mcommand[0m                 [01;32mlastlog[0m                 [01;32mrpm2archive[0m           [37;41mumount[0m
+ [01;32mcoredumpctl[0m             [01;32mlchfn[0m                   [01;32mrpm2cpio[0m              [01;32munalias[0m
+ [01;32mcp[0m                      [01;32mlchsh[0m                   [01;32mrpmdb[0m                 [01;32muname[0m
+ [01;32mcpio[0m                    [01;36mld[0m                      [01;32mrpmkeys[0m               [01;36muname26[0m
+ [01;32mcpupower[0m                [01;32mld.bfd[0m                  [01;36mrpmquery[0m              [01;32munexpand[0m
+ [01;36mcsh[0m                     [01;36mld.so[0m                   [01;36mrpmverify[0m             [01;32municode_start[0m
+ [01;32mcsplit[0m                  [01;32mldd[0m                     [01;32mrst2html[0m              [01;32municode_stop[0m
+ [01;32mcurl[0m                    [01;32mless[0m                    [01;32mrst2html4[0m             [01;32muniq[0m
+ [01;32mcut[0m                     [01;32mlessecho[0m                [01;32mrst2html5[0m             [01;32munlink[0m
+ [01;32mcvtsudoers[0m              [01;32mlesskey[0m                 [01;32mrst2latex[0m             [01;32munshare[0m
+ [01;32mcyrusbdb2current[0m        [01;32mlesspipe.sh[0m             [01;32mrst2man[0m               [01;36munxz[0m
+ [01;32mdate[0m                    [01;32mlexgrog[0m                 [01;32mrst2odt[0m               [01;32munzip[0m
+ [01;32mdbus-broker[0m             [01;32mlink[0m                    [01;32mrst2odt_prepstyles[0m    [01;32munzipsfx[0m
+ [01;32mdbus-broker-launch[0m      [01;32mlinux-boot-prober[0m       [01;32mrst2pseudoxml[0m         [01;36munzstd[0m
+ [01;32mdc[0m                      [01;36mlinux32[0m                 [01;32mrst2s5[0m                [01;32mupdate-ca-trust[0m
+ [01;32mdd[0m                      [01;36mlinux64[0m                 [01;32mrst2xetex[0m             [01;32mupdate-crypto-policies[0m
+ [01;32mdeallocvt[0m               [01;32mln[0m                      [01;32mrst2xml[0m               [01;32muptime[0m
+ [01;36mdebuginfo-install[0m       [01;32mloadkeys[0m                [01;32mrstpep2html[0m           [01;32muserdbctl[0m
+ [01;32mdebuginfod-find[0m         [01;32mloadunimap[0m              [01;32mrsync[0m                 [01;32musers[0m
+ [01;32mdelv[0m                    [01;32mlocale[0m                  [01;32mrsync-ssl[0m             [01;32musleep[0m
+ [01;32mdf[0m                      [01;32mlocalectl[0m               [01;32mrun-parts[0m             [01;32mutmpdump[0m
+ [01;32mdiff[0m                    [01;32mlocaledef[0m               [01;32mruncon[0m                [01;32muuidgen[0m
+ [01;32mdiff3[0m                   [01;32mlogger[0m                  [01;36mrvi[0m                   [01;32muuidparse[0m
+ [01;32mdig[0m                     [01;32mlogin[0m                   [01;36mrview[0m                 [01;32mvdir[0m
+ [01;32mdir[0m                     [01;32mloginctl[0m                [01;36mrvim[0m                  [01;32mvi[0m
+ [01;32mdircolors[0m               [01;32mlogname[0m                 [01;32msadf[0m                  [01;32mview[0m
+ [01;32mdirname[0m                 [01;32mlogresolve[0m              [01;32msar[0m                   [01;32mvim[0m
+ [01;32mdistro[0m                  [01;32mlook[0m                    [01;32msbattach[0m              [01;36mvimdiff[0m
+ [01;32mdmesg[0m                   [01;32mls[0m                      [01;32msbkeysync[0m             [01;32mvimtutor[0m
+ [01;36mdnf[0m                     [01;32mlsattr[0m                  [01;32msbsiglist[0m             [01;32mvlock[0m
+ [01;32mdnf-3[0m                   [01;32mlsblk[0m                   [01;32msbsign[0m                [01;32mvmstat[0m
+ [01;36mdnsdomainname[0m           [01;32mlscpu[0m                   [01;32msbvarsign[0m             [01;32mw[0m
+ [01;32mdnstap-read[0m             [01;32mlsinitrd[0m                [01;32msbverify[0m              [01;32mwait[0m
+ [01;36mdomainname[0m              [01;32mlsipc[0m                   [01;32mscalar[0m                [01;32mwall[0m
+ [01;32mdracut[0m                  [01;32mlsirq[0m                   [01;32mscp[0m                   [01;32mwatch[0m
+ [01;32mdu[0m                      [01;32mlslocks[0m                 [30;43mscreen[0m                [01;32mwc[0m
+ [01;32mdumpkeys[0m                [01;32mlslogins[0m                [01;32mscript[0m                [01;32mwcurl[0m
+ [01;32mdwz[0m                     [01;32mlsmcli[0m                  [01;32mscriptlive[0m            [01;32mwdctl[0m
+ [01;32mec2-metadata[0m            [01;32mlsmd[0m                    [01;32mscriptreplay[0m          [01;32mwget[0m
+ [01;32mecho[0m                    [01;32mlsmem[0m                   [01;32msdiff[0m                 [01;36mwhatis[0m
+ [01;32med[0m                      [01;32mlsns[0m                    [01;32msecon[0m                 [01;32mwhatis.man-db[0m
+ [01;32mefisecdb[0m                [01;32mlsof[0m                    [01;32msed[0m                   [01;32mwhereis[0m
+ [01;32mefivar[0m                  [01;32mmake-dummy-cert[0m         [01;32msedismod[0m              [01;32mwhich[0m
+ [01;32megrep[0m                   [01;36mman[0m                     [01;32msedispol[0m              [01;32mwhiptail[0m
+ [01;32meject[0m                   [01;32mman-recode[0m              [01;32msemodule_expand[0m       [01;32mwho[0m
+ [01;32melfedit[0m                 [01;32mman.man-db[0m              [01;32msemodule_link[0m         [01;32mwhoami[0m
+ [01;32mencguess[0m                [01;32mmandb[0m                   [01;32msemodule_package[0m      [30;43mwrite[0m
+ [01;32menv[0m                     [01;32mmanpath[0m                 [01;32msemodule_unpackage[0m    [01;36mx86_64[0m
+ [01;32menvsubst[0m                [01;32mmapscrn[0m                 [01;32mseq[0m                   [01;32mx86_64-amazon-linux-gnu-pkg-config[0m
+ [01;32meqn[0m                     [01;32mmcookie[0m                 [01;32msestatus[0m              [01;32mx86_energy_perf_policy[0m
+ [01;36mex[0m                      [01;32mmd5sum[0m                  [01;32msetarch[0m               [01;32mxargs[0m
+ [01;32mexpand[0m                  [01;32mmesg[0m                    [01;32msetfacl[0m               [01;32mxgettext[0m
+ [01;32mexpr[0m                    [01;36mminiterm-3.9.py[0m         [01;32msetfattr[0m              [01;32mxmlcatalog[0m
+ [01;32mfactor[0m                  [01;32mminiterm-3.py[0m           [01;32msetfont[0m               [01;32mxmllint[0m
+ [01;32mfallocate[0m               [01;36mminiterm.py[0m             [01;32msetkeycodes[0m           [01;32mxmlwf[0m
+ [01;32mfalse[0m                   [01;32mmkdir[0m                   [01;32msetleds[0m               [01;32mxxd[0m
+ [01;32mfc[0m                      [01;32mmkfifo[0m                  [01;32msetmetamode[0m           [01;32mxz[0m
+ [01;32mfc-cache[0m                [01;32mmknod[0m                   [01;32msetpriv[0m               [01;36mxzcat[0m
+ [01;32mfc-cache-64[0m             [01;32mmktemp[0m                  [01;32msetsid[0m                [01;36mxzcmp[0m
+ [01;32mfc-cat[0m                  [01;32mmmdblookup[0m              [01;32msetterm[0m               [01;32mxzdec[0m
+ [01;32mfc-conflist[0m             [01;32mmodulemd-validator[0m      [01;36msetup-nsssysinit[0m      [01;32mxzdiff[0m
+ [01;32mfc-list[0m                 [01;32mmore[0m                    [01;32msetup-nsssysinit.sh[0m   [01;36mxzegrep[0m
+ [01;32mfc-match[0m                [37;41mmount[0m                   [01;32msetup-policy-routes[0m   [01;36mxzfgrep[0m
+ [01;32mfc-pattern[0m              [01;32mmountpoint[0m              [01;32msetvtrgb[0m              [01;32mxzgrep[0m
+ [01;32mfc-query[0m                [01;32mmpstat[0m                  [01;32msftp[0m                  [01;32mxzless[0m
+ [01;32mfc-scan[0m                 [01;32mmsgattrib[0m               [01;36msg[0m                    [01;32mxzmore[0m
+ [01;32mfc-validate[0m             [01;32mmsgcat[0m                  [01;36msh[0m                    [01;32myes[0m
+ [01;32mfg[0m                      [01;32mmsgcmp[0m                  [01;32msha1hmac[0m              [01;36mypdomainname[0m
+ [01;32mfgconsole[0m               [01;32mmsgcomm[0m                 [01;32msha1sum[0m               [01;36myum[0m
+ [01;32mfgrep[0m                   [01;32mmsgconv[0m                 [01;32msha224hmac[0m            [01;36myum-builddep[0m
+ [01;32mfile[0m                    [01;32mmsgen[0m                   [01;32msha224sum[0m             [01;36myum-config-manager[0m
+ [01;32mfincore[0m                 [01;32mmsgexec[0m                 [01;32msha256hmac[0m            [01;36myum-debug-dump[0m
+ [01;32mfind[0m                    [01;32mmsgfilter[0m               [01;32msha256sum[0m             [01;36myum-debug-restore[0m
+ [01;36mfind-repos-of-install[0m   [01;32mmsgfmt[0m                  [01;32msha384hmac[0m            [01;36myum-groups-manager[0m
+ [01;32mfindmnt[0m                 [01;32mmsggrep[0m                 [01;32msha384sum[0m             [01;36myumdownloader[0m
+ [01;32mfips-finish-install[0m     [01;32mmsginit[0m                 [01;32msha512hmac[0m            [01;32mzcat[0m
+ [01;32mfips-mode-setup[0m         [01;32mmsgmerge[0m                [01;32msha512sum[0m             [01;32mzcmp[0m
+ [01;32mflock[0m                   [01;32mmsgunfmt[0m                [01;32mshowconsolefont[0m       [01;32mzdiff[0m
+ [01;32mfmt[0m                     [01;32mmsguniq[0m                 [01;32mshowkey[0m               [01;32mzdump[0m
+ [01;32mfold[0m                    [01;32mmv[0m                      [01;32mshred[0m                 [01;32mzegrep[0m
+ [01;32mfree[0m                    [01;32mnamed-checkzone[0m         [01;32mshuf[0m                  [01;32mzfgrep[0m
+ [01;32mfunzip[0m                  [01;32mnamed-compilezone[0m       [01;32msim_lsmplugin[0m         [01;32mzforce[0m
+ [01;32mfuse2fs[0m                 [01;32mnamed-nzd2nzf[0m           [01;32msimc_lsmplugin[0m        [01;32mzgrep[0m
+ [01;32mgapplication[0m            [01;32mnamei[0m                   [01;32msize[0m                  [01;32mzip[0m
+ [01;32mgawk[0m                    [01;32mnano[0m                    [01;32mskill[0m                 [01;32mzipcloak[0m
+ [01;32mgdbus[0m                   [01;36mneeds-restarting[0m        [01;32mslabtop[0m               [01;32mzipgrep[0m
+ [01;32mgencat[0m                  [01;32mneqn[0m                    [01;32msleep[0m                 [01;32mzipinfo[0m
+ [01;36mgeqn[0m                    [01;32mnetstat[0m                 [01;32msm3hmac[0m               [01;32mzipnote[0m
+ [01;32mgetconf[0m                 [01;32mnetworkctl[0m              [01;32msnice[0m                 [01;32mzipsplit[0m
+ [01;32mgetent[0m                  [30;41mnewgidmap[0m               [01;36msoelim[0m                [01;32mzless[0m
+ [01;32mgetfacl[0m                 [37;41mnewgrp[0m                  [01;32msoelim.groff[0m          [01;32mzmore[0m
+ [01;32mgetfattr[0m                [30;41mnewuidmap[0m               [01;32msort[0m                  [01;32mznew[0m
+ [01;32mgetkeycodes[0m             [01;32mngettext[0m                [01;32msotruss[0m               [01;36mzsoelim[0m
+ [01;32mgetopt[0m                  [01;32mnice[0m                    [01;32msplit[0m                 [01;32mzstd[0m
+ [01;32mgetopts[0m                 [01;36mnisdomainname[0m           [01;32msprof[0m                 [01;36mzstdcat[0m
+ [01;32mgettext[0m                 [01;32mnl[0m                      [01;32mssh[0m                   [01;32mzstdgrep[0m
+ [01;32mgettext.sh[0m              [01;32mnm[0m                      [01;32mssh-add[0m               [01;32mzstdless[0m
+ [01;32mgio[0m                     [01;32mnohup[0m                   [01;32mssh-agent[0m             [01;36mzstdmt[0m
+ [01;32mgio-querymodules-64[0m     [01;32mnproc[0m                   [01;32mssh-copy-id[0m
+]0;root@ip-172-31-4-161:/usr/bin[?2004h[root@ip-172-31-4-161 bin]# cat typescript
+[?2004lcat: typescript: No such file or directory
+]0;root@ip-172-31-4-161:/usr/bin[?2004h[root@ip-172-31-4-161 bin]# cd ..
+[?2004l]0;root@ip-172-31-4-161:/usr[?2004h[root@ip-172-31-4-161 usr]# cd
+[?2004l]0;root@ip-172-31-4-161:~[?2004h[root@ip-172-31-4-161 ~]# ls
+[?2004l]0;root@ip-172-31-4-161:~[?2004h[root@ip-172-31-4-161 ~]# cd l[K/
+[?2004l]0;root@ip-172-31-4-161:/[?2004h[root@ip-172-31-4-161 /]# ls
+[?2004l[0m[01;36mbin[0m  [01;34mboot[0m  [01;34mdev[0m  [01;34metc[0m  [01;34mhome[0m  [01;36mlib[0m  [01;36mlib64[0m  [01;34mlocal[0m  [01;34mmedia[0m  [01;34mmnt[0m  [01;34mopt[0m  [01;34mproc[0m  [01;34mroot[0m  [01;34mrun[0m  [01;36msbin[0m  [01;34msrv[0m  [01;34msys[0m  [30;42mtmp[0m  [01;34musr[0m  [01;34mvar[0m
+]0;root@ip-172-31-4-161:/[?2004h[root@ip-172-31-4-161 /]# cd home/
+[?2004l]0;root@ip-172-31-4-161:/home[?2004h[root@ip-172-31-4-161 home]# ls
+[?2004l[0m[01;34mec2-user[0m  [01;34muser1[0m  [01;34muser2[0m
+]0;root@ip-172-31-4-161:/home[?2004h[root@ip-172-31-4-161 home]# cd ec2-user/
+[?2004l]0;root@ip-172-31-4-161:/home/ec2-user[?2004h[root@ip-172-31-4-161 ec2-user]# ls
+[?2004lbackup    [0m[01;34mdir1[0m    file1  file4   file5   file9   [01;34mfolder[0m  [01;34mnewgit[0m  [01;36msoft4[0m
+backup77  [01;32mfile09[0m  file2  [01;32mfile44[0m  file77  fileno  int4    [01;34mprod[0m    [01;36msoft77[0m
+]0;root@ip-172-31-4-161:/home/ec2-user[?2004h[root@ip-172-31-4-161 ec2-user]# cd newgit/
+[?2004l]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# ls
+[?2004lfile1  [0m[01;32mscript[0m  typescript
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# cat file9
+[?2004lcat: file9: No such file or directory
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# cat > file1 
+[?2004l#!bin/bash
+name: Thomas
+city: Bangalore
+pin: 560032
+echo"details"
+echo"name:$name'
+echo"city:$city'
+echo"pin:$pin"
+echo"end of program[01;34mdir1[0m    file1  file4   file5   file9   [01;34mfolder[0m  [01;34mnewgit[0m  [01;36msoft4[0m
+backup77  [01;32mfile09[0m  file2  [01;32mfile44[0m  file77  fileno  int4    [01;34mprod[0m    [01;36msoft77[0m
+]0;root@ip-172-31-4-161:/home/ec2-user[?2004h[root@ip-172-31-4-161 ec2-user]# cd newgit/
+[?2004l]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# ls
+[?2004lfile1  [0m[01;32mscript[0m  typescript
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# cat file9
+[?2004lcat: file9: No such file or directory
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# cat > file1 
+[?2004l#!bin/bash
+name: Thomas
+city: Bangalore
+pin: 560032
+echo"details"
+echo"name:$name'
+echo"city:$city'
+echo"pin:$pin"
+echo"end of program"
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# ls
+[?2004lfile1  [0m[01;32mscript[0m  typescript
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# git status
+[?2004lOn branch master
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   file1[m
+	[31mmodified:   script[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtypescript[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# git add .
+[?2004l]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# git status
+[?2004lOn branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   file1[m
+	[32mmodified:   script[m
+	[32mnew file:   typescript[m
+
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# git [K[K[K[Kgt[Kit . file1
+[?2004lgit: '.' is not a git command. See 'git --help'.
+
+The most similar commands are
+	am
+	gc
+	mv
+	rm
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# git . file1[K[K[K[K[K[Kfile1
+[?2004lgit: '.file1' is not a git command. See 'git --help'.
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# .file1
+[?2004lbash: .file1: command not found
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# ./file1
+[?2004lbash: ./file1: Permission denied
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# chmod 777 file1 
+[?2004l]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# ./file1
+[?2004lbash: ./file1: cannot execute: required file not found
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# .file1
+[?2004lbash: .file1: command not found
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# ls
+[?2004l[0m[01;32mfile1[0m  [01;32mscript[0m  typescript
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# git commit -m "commit'
+[?2004l[?2004h> 
+[?2004l[?2004h> [?2004l
+bash: unexpected EOF while looking for matching `"'
+[?2004h> gitcommi[K[K[K[K [K[K commir[Kt -m "seconf[Kd commit"
+[?2004lScript done.
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# ls[K[Kgit  status
+[?2004lOn branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   file1[m
+	[32mmodified:   script[m
+	[32mnew file:   typescript[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   file1[m
+	[31mmodified:   typescript[m
+
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# git add file1 
+[?2004l]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# git status
+[?2004lOn branch master
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mmodified:   file1[m
+	[32mmodified:   script[m
+	[32mnew file:   typescript[m
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mmodified:   typescript[m
+
+]0;root@ip-172-31-4-161:/home/ec2-user/newgit[?2004h[root@ip-172-31-4-161 newgit]# git o[Kcommit file1 
+[?2004lhint: Waiting for your editor to close the file... [?1049h[22;0;0t[>4;2m[?1h=[?2004h[?1004h[1;30r[?12h[?12l[22;2t[22;1t[27m[23m[29m[m[H[2J[?25l[30;1H"/home/ec2-user/newgit/.git/COMMIT_EDITMSG" 14L, 296B[2;1H▽[6n[2;1H  [3;1HPzz\[0%m[6n[3;1H           [1;1H[>c]10;?]11;?[2;1H[34m# Please enter the commit message for your changes. Lines starting[m[2;67H[K[3;1H[34m# with '#' will be ignored, and an empty message aborts the commit.[m[3;68H[K[4;1H[34m#
+# On branch [m[35mmaster[m
+[34m# [m[35mChanges to be committed:[m
+[34m#       [m[32mmodified[m[34m:   [m[31mfile1[m
+[34m#
+# [m[35mChanges not staged for commit:[m
+[34m#       [m[32mmodified[m[34m:   [m[31mscript[m
+[34m#
+# [m[35mUntracked files:[m
+[34m#       [m[31mtypescript[m
+[34m#[m
+[94m~                                                                                                                       [16;1H~                                                                                                                       [17;1H~                                                                                                                       [18;1H~                                                                                                                       [19;1H~                                                                                                                       [20;1H~                                                                                                                       [21;1H~                                                                                                                       [22;1H~                                                                                                                       [23;1H~                                                                                                                       [24;1H~                                                                                                                       [25;1H~                                                                                                                       [26;1H~                                                                                                                       [27;1H~                                                                                                                       [28;1H~                                                                                                                       [29;1H~                                                                                                                       [m[30;103H1,0-1[9CAll[1;1H[?25h[?4m[?25l[30;93H^[[1;1H[30;93H  [1;1H[30;93H^[[1;1H[30;93H  [1;1H[?25h[?25l[30;93Hi[1;1H[30;93H [1;1H[30;1H[1m-- INSERT --[m[30;13H[K[30;103H1,1[11CAll[1;1H[?25h[?25l[38;5;130m;[m[30;105H2[1;2H[?25h[?25l[1;1H[K[30;105H1[1;1H[?25h[?25l[38;5;130m:[m[30;105H2[1;2H[?25h[?25l[38;5;130mq[m[30;105H3[1;3H[?25h[?25l[2;29r[2;1H[L[1;30r[30;103H[K[30;103H2,1[11CAll[2;1H[?25h[?25l[1;29r[29;1H
+[1;30r[1;1H[38;5;130m:q[m[29;1H[94m~                                                                                                                       [m[30;103H[K[
